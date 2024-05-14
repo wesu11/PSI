@@ -1,3 +1,74 @@
-body{
-    background-color: blue;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    max-width: 1920px; /* Full HD resolution */
+    margin: 0 auto; /* Center the layout */
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 18px;
+    color: #666;
+}
+
+nav {
+    background-color: #333;
+    padding: 20px;
+    width: 200px; /* Fixed width for the menu */
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main {
+    flex-basis: 60%; /* Take 60% of the available space */
+}
+
+aside {
+    flex-basis: 30%; /* Take 30% of the available space */
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both; /* Clear the float from the nav */
 }
